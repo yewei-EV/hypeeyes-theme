@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-theme-material",
+	"id": "nodebb-theme-hypeeyes",
 	"library": "./lib/theme.js",
 	"hooks": [
 		{
