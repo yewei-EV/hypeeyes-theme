@@ -34,6 +34,8 @@
 					<!-- IMPORT partials/topic/post-menu.tpl -->
 				</ul>
 
+				<div class="topic-title" component="topic/title">{title}</div>
+
 				<div class="post-header">
 					<a class="pull-left visible-xs user-profile-link" href="{config.relative_path}/user/{posts.user.userslug}">
 						<!-- IF posts.user.picture -->
@@ -57,7 +59,7 @@
 					</span>
 				</div>
 
-				<div component="post/content" itemprop="text">
+				<div class="post-body-item" component="post/content" itemprop="text">
 					{posts.content}
 				</div>
 
@@ -68,7 +70,22 @@
 				<div class="post-edit">
 					<small component="post/editor" class="<!-- IF !posts.editor.username -->hidden<!-- ENDIF !posts.editor.username -->"><strong><a href="{config.relative_path}/user/{posts.editor.userslug}">[[global:last_edited_by, {posts.editor.username}]]</a></strong> <span class="timeago" title="{posts.editedISO}"></span></small>
 				</div>
+				<div class="upvote-buttom">
+				<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
+                							<i class="fa fa-thumbs-o-up"></i>
+                </a>
+                <span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
 				{posts.reactions}
+				<!-- IF config.loggedIn -->
+                <li>
+                	<a component="post/bookmark" href="#" data-bookmarked="{posts.bookmarked}">[[topic:bookmark]]
+                		<span component="post/bookmark-count" class="bookmarkCount" data-bookmarks="{posts.bookmarks}">{posts.bookmarks}</span>&nbsp;
+                		<i component="post/bookmark/on" class="fa fa-fw fa-heart <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
+                		<i component="post/bookmark/off" class="fa fa-fw fa-heart-o <!-- IF posts.bookmarked -->hidden<!-- ENDIF posts.bookmarked -->"></i>
+                	</a>
+                </li>
+                <!-- ENDIF config.loggedIn -->
+				</div>
 			</div>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 		<div class="listview lv-lg">
 			<div class="lv-header-alt" component="post/header">
 				<div class="title">
-					<i class="fa fa-thumb-tack <!-- IF !pinned -->hidden<!-- ENDIF !pinned -->"></i> <i class="fa fa-lock <!-- IF !locked -->hidden<!-- ENDIF !locked -->"></i> <span class="topic-title" component="topic/title">{title}</span>
+					<i class="fa fa-thumb-tack <!-- IF !pinned -->hidden<!-- ENDIF !pinned -->"></i> <i class="fa fa-lock <!-- IF !locked -->hidden<!-- ENDIF !locked -->"></i>
 					<ul class="lv-actions actions">
 						<!-- IMPORT partials/topic/sort.tpl -->
 					</ul>
