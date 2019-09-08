@@ -14,15 +14,10 @@
 
 		<div class="pull-left hidden-xs">
 			<!-- IF topics.thumb -->
-			<img src="{topics.thumb}" class="lv-img" alt="{topics.user.username}" />
+			<img src="{topics.thumb}" style="width:130px;" alt="{topics.user.username}" />
+			<!--<img src="{topics.thumb}" class="lv-img" alt="{topics.user.username}" />-->
 			<!-- ELSE -->
-			<a href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->">
-				<!-- IF topics.user.picture -->
-				<img class="user-avatar" src="{topics.user.picture}" alt="{topics.user.username}" title="{topics.user.username}" />
-				<!-- ELSE -->
-				<div class="user-icon" style="background-color: {topics.user.icon:bgColor};">{topics.user.icon:text}</div>
-				<!-- ENDIF topics.user.picture -->
-			</a>
+			<img src="/assets/images/cover-default.png" style="width:130px;" alt="{topics.user.username}" />
 			<!-- ENDIF topics.thumb -->
 		</div>
 		<div class="media-body">
@@ -69,7 +64,7 @@
 				<!-- ENDIF topics.tags.length -->
 			</div>
 
-			<div class="lv-actions actions hidden-xs">
+			<div class="lv-actions actions hidden-xs" style="top: 85%;">
 				<ul>
 					<!-- IF topics.unreplied -->
 					<li class="lv-small">[[category:no_replies]]</li>
