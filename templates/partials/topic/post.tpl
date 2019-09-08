@@ -74,17 +74,11 @@
 				<a component="post/upvote" href="#" class="<!-- IF posts.upvoted -->upvoted<!-- ENDIF posts.upvoted -->">
                 							<i class="fa fa-thumbs-o-up"></i>
                 </a>
-                <span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
-				{posts.reactions}
-				<!-- IF config.loggedIn -->
-                <li>
-                	<a component="post/bookmark" href="#" data-bookmarked="{posts.bookmarked}">[[topic:bookmark]]
-                		<span component="post/bookmark-count" class="bookmarkCount" data-bookmarks="{posts.bookmarks}">{posts.bookmarks}</span>&nbsp;
-                		<i component="post/bookmark/on" class="fa fa-fw fa-heart <!-- IF !posts.bookmarked -->hidden<!-- ENDIF !posts.bookmarked -->"></i>
-                		<i component="post/bookmark/off" class="fa fa-fw fa-heart-o <!-- IF posts.bookmarked -->hidden<!-- ENDIF posts.bookmarked -->"></i>
-                	</a>
-                </li>
-                <!-- ENDIF config.loggedIn -->
+                <div class="vote-buttom">
+                    <span component="post/vote-count" data-votes="{posts.votes}">{posts.votes}</span>
+                    {posts.reactions}
+                </div>
+
 				</div>
 			</div>
 		</div>
