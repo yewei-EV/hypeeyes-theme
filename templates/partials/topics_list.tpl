@@ -1,4 +1,4 @@
-<div class="lv-body" component="category" itemscope itemtype="http://www.schema.org/ItemList" data-nextstart="{nextStart}">
+<div class="lv-body listview" component="category" itemscope itemtype="http://www.schema.org/ItemList" data-nextstart="{nextStart}">
 	<meta itemprop="itemListOrder" content="descending">
 	<!-- BEGIN topics -->
 	<div component="category/topic" class="lv-item media row clearfix category-item {function.generateTopicClass}" <!-- IMPORT partials/data/category.tpl -->>
