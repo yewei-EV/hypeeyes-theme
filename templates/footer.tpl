@@ -36,5 +36,21 @@
 		<div class="hide">
 			<!-- IMPORT 500-embed.tpl -->
 		</div>
-	</body>
+
+		<div><i id="scroll" style="display: none;" class="fa fa-chevron-circle-up position-fix"></i></div>
+
+		<style type="text/css">
+			.position-fix {
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				font-size: 40px;
+				color: #2196f3;
+			}
+			.position-fix:hover {
+				cursor: pointer;
+			}
+		</style>
+
+		</body>
 </html>
