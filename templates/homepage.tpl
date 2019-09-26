@@ -1,6 +1,6 @@
-<div style="width: 100%; position: relative;">
+<div style="width: 100%; position: relative; height: calc(100vh - 65px); overflow: scroll;">
     <iframe id="external-frame" src="<!-- IF isDevelop -->http://127.0.0.1:4200<!-- ELSE -->/hypeeyes/web<!-- ENDIF isDevelop -->"
-            style="width: 100%;<!-- IF isDevelop -->height: calc(100vh - 165px);<!-- ENDIF isDevelop -->"></iframe>
+            style="width: 100%;min-height: 200vh; overflow:hidden; <!-- IF isDevelop -->height: calc(100vh - 165px);<!-- ENDIF isDevelop -->"></iframe>
 </div>
 <script type="text/javascript">
     function setIframeHeight(iframe) {
