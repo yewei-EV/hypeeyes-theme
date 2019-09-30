@@ -90,9 +90,6 @@
 			.footer {
 				padding: 20px 40px;
 				font-size: 13px !important;
-				.text-center {
-					text-align: center;
-				}
 			}
 			.footer-top {
 				margin-top: 20px;

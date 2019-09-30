@@ -1,6 +1,7 @@
 <div style="width: 100%;">
     <iframe id="external-frame" src="<!-- IF isDevelop -->http://127.0.0.1:4200<!-- ELSE -->/hypeeyes/web<!-- ENDIF isDevelop -->"
-            style="width: 100%;min-height: 200vh; overflow:hidden; border: 0;<!-- IF isDevelop -->height: calc(100vh - 165px);<!-- ENDIF isDevelop -->"></iframe>
+            style="width: 100%;min-height: 200vh; overflow:hidden; border: 0;<!-- IF isDevelop -->height: calc(100vh - 165px);<!-- ENDIF isDevelop -->"
+        onload="setIframeHeight(this)"></iframe>
 </div>
 <script type="text/javascript">
     function setIframeHeight(iframe) {
@@ -11,11 +12,6 @@
             }
         }
     }
-
-    window.onload = function () {
-
-        setIframeHeight(document.getElementById('external-frame'));
-    };
 </script>
 <style>
 @media (min-width: 1200px) {
