@@ -7,7 +7,7 @@
     function handleDocHeightMsg (event) {
         var iframe = document.getElementById("external-frame");
 
-        if ((event.origin.indexOf('hypeeyes.com') > 0 && location.origin.indexOf('hypeeyes.com') > 0) ||
+        if ((event.origin.indexOf('hypeeyes.com') > 0 && location.origin.indexOf('hypeeyes.com') > 0 && typeof event.data === 'number') ||
             (event.origin === 'http://127.0.0.1:4200' && location.origin ==='http://127.0.0.1:4567') ||
             (event.origin === 'http://localhost:4200' && location.origin === 'http://localhost:4567')) {
             iframe.style.height = event.data +"px";
