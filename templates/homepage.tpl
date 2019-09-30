@@ -1,17 +1,19 @@
 <div style="width: 100%;">
     <iframe id="external-frame" src="<!-- IF isDevelop -->http://127.0.0.1:4200<!-- ELSE -->/hypeeyes/web<!-- ENDIF isDevelop -->"
-            style="width: 100%;min-height: 200vh; overflow:hidden; border: 0;<!-- IF isDevelop -->height: calc(100vh - 165px);<!-- ENDIF isDevelop -->"
-        onload="setIframeHeight(this)"></iframe>
+            style="width: 100%;min-height: 200vh; overflow:hidden; border: 0;"
+        ></iframe>
 </div>
 <script type="text/javascript">
-    function setIframeHeight(iframe) {
-        if (iframe) {
-            var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
-            if (iframeWin.document.body) {
-                iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
-            }
+    function handleDocHeightMsg (event) {
+        var iframe = document.getElementById("external-frame");
+
+        if ((event.origin === location.protocol + '//hypeeyes.com' && location.origin.indexOf('//hypeeyes.com')) ||
+            (event.origin === 'http://127.0.0.1:4200' && location.origin ==='http://127.0.0.1:4567') ||
+            (event.origin === 'http://localhost:4200' && location.origin === 'http://localhost:4567')) {
+            iframe.style.height = event.data +"px";
         }
     }
+    window.addEventListener('message', handleDocHeightMsg, false);
 </script>
 <style>
 @media (min-width: 1200px) {
