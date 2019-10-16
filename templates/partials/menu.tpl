@@ -39,7 +39,85 @@
 		</li>
 		<!-- ENDIF config.menuInHeader -->
 
-		<li class="pull-right">
+
+	  <a href="/custom">首页</a>
+
+	  <li id="news-category" class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news_dropdown">
+			  发售资讯
+		  </a>
+		  <ul id="news-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/17/">Nike</a>
+			  </li>
+			  <li>
+				  <a href="/category/18/">Adidas</a>
+			  </li>
+			  <li>
+				  <a href="/category/19/">Supreme</a>
+			  </li>
+			  <li>
+				  <a href="/category/20/">Kith</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="wiki-category" class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="wiki_dropdown">
+			  潮流百科
+		  </a>
+		  <ul id="wiki-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/21/">人物</a>
+			  </li>
+			  <li>
+				  <a href="/category/22/">品牌</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="picture-category" class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="picture_dropdown">
+			  美图细赏
+		  </a>
+		  <ul id="picture-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/23/">球鞋</a>
+			  </li>
+			  <li>
+				  <a href="/category/24/">潮服</a>
+			  </li>
+			  <li>
+				  <a href="/category/25/">上身驾驭</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <a href="/category/2/">抢购黑科技</a>
+
+	  <a href="/category/12/">潮目社区</a>
+
+	  <li id="trade-category" class="dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="trade_dropdown">
+			  交易区
+		  </a>
+		  <ul id="trade-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/26/">新品发售</a>
+			  </li>
+			  <li>
+				  <a href="/category/27/">二手交易</a>
+			  </li>
+			  <li>
+				  <a href="/category/28/">平台寄卖</a>
+			  </li>
+			  <li>
+				  <a href="/category/29/">地区转运</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li class="pull-right">
 			<ul class="top-menu">
 				<li class="nav navbar-nav pagination-block visible-lg visible-md">
 					<div class="dropdown">
