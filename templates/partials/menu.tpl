@@ -42,9 +42,10 @@
 
 	  <a href="/custom">首页</a>
 
-	  <li id="news-category" class="dropdown">
+	  <li id="news-category" class="dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news_dropdown">
 			  发售资讯
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
 		  <ul id="news-list" class="dropdown-menu pull-left">
 			  <li>
@@ -62,9 +63,10 @@
 		  </ul>
 	  </li>
 
-	  <li id="wiki-category" class="dropdown">
+	  <li id="wiki-category" class="dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="wiki_dropdown">
 			  潮流百科
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
 		  <ul id="wiki-list" class="dropdown-menu pull-left">
 			  <li>
@@ -76,9 +78,10 @@
 		  </ul>
 	  </li>
 
-	  <li id="picture-category" class="dropdown">
+	  <li id="picture-category" class="dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="picture_dropdown">
 			  美图细赏
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
 		  <ul id="picture-list" class="dropdown-menu pull-left">
 			  <li>
@@ -97,9 +100,10 @@
 
 	  <a href="/category/12/">潮目社区</a>
 
-	  <li id="trade-category" class="dropdown">
+	  <li id="trade-category" class="dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="trade_dropdown">
 			  交易区
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
 		  <ul id="trade-list" class="dropdown-menu pull-left">
 			  <li>
