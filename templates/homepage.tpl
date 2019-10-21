@@ -1,5 +1,5 @@
 <div style="width: 100%;">
-    <iframe id="external-frame" src="<!-- IF isDevelop -->http://127.0.0.1:4200<!-- ELSE -->/hypeeyes/web<!-- ENDIF isDevelop -->"
+    <iframe id="external-frame" src="{theUrl}"
             style="width: 100%;min-height: 200vh; overflow:hidden; border: 0;"
         ></iframe>
 </div>
