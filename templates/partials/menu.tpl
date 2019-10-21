@@ -43,7 +43,7 @@
 	  <a href="/custom">首页</a>
 
 	  <li id="news-category" class="dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/1" id="news_dropdown">
 			  发售资讯
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -64,7 +64,7 @@
 	  </li>
 
 	  <li id="wiki-category" class="dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="wiki_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/4" id="wiki_dropdown">
 			  潮流百科
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -79,7 +79,7 @@
 	  </li>
 
 	  <li id="picture-category" class="dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="picture_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/8" id="picture_dropdown">
 			  美图细赏
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -96,12 +96,32 @@
 		  </ul>
 	  </li>
 
-	  <a href="/category/2/">抢购黑科技</a>
-
-	  <a href="/category/12/">潮目社区</a>
+	  <li id="forum-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/12" id="forum_dropdown">
+			  潮目社区
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="forum-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/30/">精选</a>
+			  </li>
+			  <li>
+				  <a href="/category/31/">发售讨论</a>
+			  </li>
+			  <li>
+				  <a href="/category/32/">抢购技巧</a>
+			  </li>
+			  <li>
+				  <a href="/category/33/">晒图区</a>
+			  </li>
+			  <li>
+				  <a href="/category/34/">七嘴八舌</a>
+			  </li>
+		  </ul>
+	  </li>
 
 	  <li id="trade-category" class="dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="trade_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/9" id="trade_dropdown">
 			  交易区
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
