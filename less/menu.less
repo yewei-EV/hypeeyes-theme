@@ -352,3 +352,23 @@
 		}
 	}
 }
+
+ul li.dropdown:hover > ul.dropdown-menu {
+	display: block;
+}
+
+.header-inner {
+	.dropdown {
+		&>a {
+			i {
+				transition: all .2s ease;
+			}
+			&:hover {
+				i {
+					transform: rotate(-180deg);
+				}
+			}
+		}
+
+	}
+}

@@ -274,7 +274,7 @@ html:not(.ie9) .select.fg-line:before {
 	position: relative;
 }
 
-.checkbox input, .radio input {
+.checkbox input {
 	top: 0;
 	left: 0;
 	margin-left: 0!important;
@@ -283,6 +283,14 @@ html:not(.ie9) .select.fg-line:before {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	margin-top: 0;
+}
+
+.radio input {
+	top: 0;
+	left: 0;
+	margin-left: 0!important;
+	z-index: 1;
+	cursor: pointer;
 }
 
 .checkbox .input-helper:before, .radio .input-helper:before, .checkbox .input-helper:after, .radio .input-helper:after {

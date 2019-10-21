@@ -39,7 +39,109 @@
 		</li>
 		<!-- ENDIF config.menuInHeader -->
 
-		<li class="pull-right">
+
+	  <a href="/custom">首页</a>
+
+	  <li id="news-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/1" id="news_dropdown">
+			  发售资讯
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="news-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/17/">Nike</a>
+			  </li>
+			  <li>
+				  <a href="/category/18/">Adidas</a>
+			  </li>
+			  <li>
+				  <a href="/category/19/">Supreme</a>
+			  </li>
+			  <li>
+				  <a href="/category/20/">Kith</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="wiki-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/4" id="wiki_dropdown">
+			  潮流百科
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="wiki-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/21/">人物</a>
+			  </li>
+			  <li>
+				  <a href="/category/22/">品牌</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="picture-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/8" id="picture_dropdown">
+			  美图细赏
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="picture-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/23/">球鞋</a>
+			  </li>
+			  <li>
+				  <a href="/category/24/">潮服</a>
+			  </li>
+			  <li>
+				  <a href="/category/25/">上身驾驭</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="forum-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/12" id="forum_dropdown">
+			  潮目社区
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="forum-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/30/">精选</a>
+			  </li>
+			  <li>
+				  <a href="/category/31/">发售讨论</a>
+			  </li>
+			  <li>
+				  <a href="/category/32/">抢购技巧</a>
+			  </li>
+			  <li>
+				  <a href="/category/33/">晒图区</a>
+			  </li>
+			  <li>
+				  <a href="/category/34/">七嘴八舌</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li id="trade-category" class="dropdown" data-animation>
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/9" id="trade_dropdown">
+			  交易区
+			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+		  </a>
+		  <ul id="trade-list" class="dropdown-menu pull-left">
+			  <li>
+				  <a href="/category/26/">新品发售</a>
+			  </li>
+			  <li>
+				  <a href="/category/27/">二手交易</a>
+			  </li>
+			  <li>
+				  <a href="/category/28/">平台寄卖</a>
+			  </li>
+			  <li>
+				  <a href="/category/29/">地区转运</a>
+			  </li>
+		  </ul>
+	  </li>
+
+	  <li class="pull-right">
 			<ul class="top-menu">
 				<li class="nav navbar-nav pagination-block visible-lg visible-md">
 					<div class="dropdown">
