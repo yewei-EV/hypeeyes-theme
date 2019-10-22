@@ -16,10 +16,8 @@
     window.addEventListener('message', handleDocHeightMsg, false);
 </script>
 <style>
-@media (min-width: 1200px) {
-  .container {
+.container {
     width: 100%;
-  }
 }
 body #content {
     padding: 0;
