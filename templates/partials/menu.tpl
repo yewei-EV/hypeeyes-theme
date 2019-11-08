@@ -39,10 +39,11 @@
 		</li>
 		<!-- ENDIF config.menuInHeader -->
 
+	  <div style="font-size: 14px; margin-right:30px; margin-left:20px; display: inline">
+	  	<a href="/custom" style="color: rgb(255, 200, 12);">潮目首页</a>
+	  </div>
 
-	  <a href="/custom">首页</a>
-
-	  <li id="news-category" class="dropdown" data-animation>
+	  <li id="news-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/1" id="news_dropdown">
 			  发售资讯
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -63,7 +64,7 @@
 		  </ul>
 	  </li>
 
-	  <li id="wiki-category" class="dropdown" data-animation>
+	  <li id="wiki-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/4" id="wiki_dropdown">
 			  潮流百科
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -78,7 +79,7 @@
 		  </ul>
 	  </li>
 
-	  <li id="picture-category" class="dropdown" data-animation>
+	  <li id="picture-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/8" id="picture_dropdown">
 			  美图细赏
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -96,7 +97,7 @@
 		  </ul>
 	  </li>
 
-	  <li id="forum-category" class="dropdown" data-animation>
+	  <li id="forum-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/12" id="forum_dropdown">
 			  潮目社区
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -120,26 +121,26 @@
 		  </ul>
 	  </li>
 
-	  <li id="trade-category" class="dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/9" id="trade_dropdown">
-			  交易区
-			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
-		  </a>
-		  <ul id="trade-list" class="dropdown-menu pull-left">
-			  <li>
-				  <a href="/category/26/">新品发售</a>
-			  </li>
-			  <li>
-				  <a href="/category/27/">二手交易</a>
-			  </li>
-			  <li>
-				  <a href="/category/28/">平台寄卖</a>
-			  </li>
-			  <li>
-				  <a href="/category/29/">地区转运</a>
-			  </li>
-		  </ul>
-	  </li>
+<!--	  <li id="trade-category" class="dropdown" data-animation>-->
+<!--		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/9" id="trade_dropdown">-->
+<!--			  交易区-->
+<!--			  <i class="fa fa-chevron-down" aria-hidden="true"></i>-->
+<!--		  </a>-->
+<!--		  <ul id="trade-list" class="dropdown-menu pull-left">-->
+<!--			  <li>-->
+<!--				  <a href="/category/26/">新品发售</a>-->
+<!--			  </li>-->
+<!--			  <li>-->
+<!--				  <a href="/category/27/">二手交易</a>-->
+<!--			  </li>-->
+<!--			  <li>-->
+<!--				  <a href="/category/28/">平台寄卖</a>-->
+<!--			  </li>-->
+<!--			  <li>-->
+<!--				  <a href="/category/29/">地区转运</a>-->
+<!--			  </li>-->
+<!--		  </ul>-->
+<!--	  </li>-->
 
 	  <li class="pull-right">
 			<ul class="top-menu">
