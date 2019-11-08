@@ -284,6 +284,8 @@
 				</div>
 			</div>
 
+			<!-- IF isAdmin -->
+			<!-- IF isSelf -->
 			<div class="card">
 				<div class="card-header">
 					[[global:language]]
@@ -301,8 +303,6 @@
 				</div>
 			</div>
 
-			<!-- IF isAdmin -->
-			<!-- IF isSelf -->
 			<div class="card">
 				<div class="card-header">
 					[[user:acp_language]]
@@ -319,8 +319,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- ENDIF isSelf -->
-			<!-- ENDIF isAdmin -->
 
 			<!-- BEGIN customSettings -->
 			<div class="card">
@@ -332,6 +330,8 @@
 				</div>
 			</div>
 			<!-- END customSettings -->
+			<!-- ENDIF isSelf -->
+			<!-- ENDIF isAdmin -->
 		</div>
 		<div class="col-xs-12">
 			<button id="submitBtn" class="btn btn-primary btn-lg">[[global:save_changes]]</button>
