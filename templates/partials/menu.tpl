@@ -39,9 +39,11 @@
 		</li>
 		<!-- ENDIF config.menuInHeader -->
 
-	  <div style="font-size: 14px; margin-right:30px; margin-left:20px; display: inline">
-	  	<a href="/custom" style="color: rgb(255, 200, 12);">潮目首页</a>
-	  </div>
+<!--	  <div style="font-size: 14px; margin-right:30px; margin-left:20px;">-->
+<!--	  	<a href="/custom" style="color: rgb(255, 200, 12);">潮目首页</a>-->
+<!--	  </div>-->
+
+	  <li class="nav-title"><a href="/custom">潮目首页</a></li>
 
 	  <li id="news-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/1" id="news_dropdown">
