@@ -1,31 +1,57 @@
 		</div><!-- /.container#content -->
 
 		<footer class="footer">
-			<div class="home-separator"></div>
-			<div class="footer-top text-center">
-				<a class="fs-13 text-white" style="margin-right:15px;position:relative;" href="/aboutus" target="_blank">关于我们</a>
-				<!-- <a class="fs-13 text-white"
-				style="margin-right:15px;position:relative;top:-2px;" href="http://nowre.com/Contact"  target="_blank">联系我们</a> -->
-				<a rel="nofollow" href="https://mp.weixin.qq.com/s/FYOiA6S19dgA-DlQCa9AkQ" target="_blank" style="display:inline-block;margin-right:8px;">
-					<span class="weixin-icon">
-						<img style="width: 22px;height: 18px;" src="http://nowre.com/wp-content/themes/nowre/img/icon-b-1.png">
-					</span>
-				</a>
-				<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">
-						<span class="nowre-third-icon small">
-							<img style="width: 22px;height: 18px;" src="http://nowre.com/wp-content/themes/nowre/img/icon-b-2.png">
-						</span>
+			<div class="footer-firstline">
+				<div class="footer-left text-left" style="color: rgb(102, 102, 102); display: flex">
+					<img class="footer-logo" src="https://pbs.twimg.com/media/DywoAz7W0AA6mkP.jpg:large">
+					<div class="footer-pgc-list">
+						<li>
+							<a href="/custom">潮目首页</a>
+						</li>
+						<li>
+							<a href="/category/1/">发售资讯</a>
+						</li>
+						<li>
+							<a href="/category/4">潮流百科</a>
+						</li>
+						<li>
+							<a href="/category/8">美图细赏</a>
+						</li>
+					</div>
+					<div class="footer-ugc-list">
+						<li>
+							<a href="/category/12">潮目社区</a>
+						</li>
+					</div>
+				</div>
+				<div class="footer-space"></div>
+				<div class="footer-right" style="color: rgb(102, 102, 102);">
+					<a class="fs-13 text-white" style="margin-right:15px;position:relative;color:#666666;" href="/aboutus" target="_blank">关于我们</a>
+					<!-- <a class="fs-13 text-white"
+					style="margin-right:15px;position:relative;top:-2px;" href="http://nowre.com/Contact"  target="_blank">联系我们</a> -->
+					<div class="share-icons">
+						<a rel="nofollow" href="https://mp.weixin.qq.com/s/FYOiA6S19dgA-DlQCa9AkQ" target="_blank" style="display:inline-block;margin-right:8px;">
+							<span class="weixin-icon">
+								<img style="width: 25px;height: 25px;" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/371_Wechat_logo-512.png">
+							</span>
+						</a>
+						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">
+								<span class="nowre-third-icon small">
+									<img style="width: 25px;height: 25px;" src="https://cdn4.iconfinder.com/data/icons/chinas-social-share-icons/256/cssi_sina_weibo-512.png">
+								</span>
 
-				</a>
-				<a rel="nofollow" href="https://www.instagram.com/hypeeyes_official/" target="_blank" style="display:inline-block;margin-right:8px;">
-					  <span class="nowre-third-icon small">
-						<img style="width: 22px;height: 18px;" src="http://nowre.com/wp-content/themes/nowre/img/icon-b-4.png">
-					  </span>
-				</a>
+						</a>
+						<a rel="nofollow" href="https://www.instagram.com/hypeeyes_official/" target="_blank" style="display:inline-block;margin-right:8px;">
+							  <span class="nowre-third-icon small">
+								<img style="width: 25px;height: 25px;" src="http://www.transparentpng.com/thumb/instagram-logo-icon/85T6Z9-instagram-logo-clipart-transparent.png">
+							  </span>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class="footer-button text-center">
-				© HYPEEYES.COM 2019 - powered by <a target="_blank" href="https://nodebb.org">NodeBB</a> &nbsp; | &nbsp;
-				<a class="fs-13 text-white" style="position:relative;" href="http://www.miitbeian.gov.cn" target="_blank">
+			<div class="footer-button text-center" style="color: rgb(102, 102, 102);">
+				© HYPEEYES.COM 2019 &nbsp; | &nbsp;
+				<a class="fs-13 text-white" style="position:relative; color: rgb(102, 102, 102);" href="http://www.miitbeian.gov.cn" target="_blank">
 					沪ICP备1234567
 				</a> &nbsp; | &nbsp;	广播电视节目制作经营许可证（泸）字第9999号
 			</div>
@@ -71,35 +97,67 @@
 		<div><i id="scroll" style="display: none;" class="fa fa-chevron-circle-up position-fix"></i></div>
 
 		<style type="text/css">
-			.home-separator {
-				display: block;
-				border-top: 2px solid #d3d3d3;
-				margin-top: -15px;
-				margin-bottom: 10px;
-			}
 			.position-fix {
 				position: fixed;
 				bottom: 20px;
 				right: 20px;
 				font-size: 40px;
-				color: #2196f3;
+				color: #FF5000;
 			}
 			.position-fix:hover {
 				cursor: pointer;
 			}
 			.footer {
-				padding: 20px 40px;
+				padding-top: 20px;
+				padding-left: 40px;
+				padding-right: 40px;
 				font-size: 13px !important;
+				background-color: rgb(53, 53, 53);
 			}
-			.footer-top {
-				margin-top: 20px;
+			.footer-left {
+				padding: 20px;
+				margin-left: 50px;
+				position: relative;
+				top: -7px;
+			}
+			.footer-right {
+				padding: 20px;
+				margin-right: 200px;
 				position: relative;
 				top: -7px;
 			}
 			.footer-button {
-				margin-top: 10px;
 				position: relative;
-				top: -7px;
+				top: -27px;
+			}
+			.footer-firstline {
+				display: flex;
+			}
+			.footer-space {
+				flex: 1 auto;
+			}
+			.footer-logo {
+				margin-right: 80px;
+				width: 40px;
+				height: 40px;
+			}
+			.footer-pgc-list {
+				margin-right: 50px;
+			}
+			.footer-ugc-list {
+				margin-right: 50px;
+			}
+			.footer-pgc-list li{
+				margin-bottom: 20px;
+			}
+			.footer-pgc-list li a{
+				color: #666666;
+			}
+			.footer-ugc-list li a{
+				color: #666666;
+			}
+			.share-icons {
+				margin-top: 20px;
 			}
 		</style>
 
