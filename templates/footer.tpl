@@ -111,7 +111,7 @@
 				padding-top: 20px;
 				padding-left: 40px;
 				padding-right: 40px;
-				font-size: 13px !important;
+				font-size: 14px !important;
 				background-color: rgb(53, 53, 53);
 			}
 			.footer-left {
