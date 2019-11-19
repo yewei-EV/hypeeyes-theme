@@ -37,15 +37,15 @@
 						</a>
 					</div>
 <!--					<div>-->
-						<strong style="line-height: 28px; font-size: 18px">
-							<a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->" itemprop="author" data-username="{posts.user.username}" data-uid="{posts.user.uid}">{posts.user.username}</a>
+						<strong style="line-height: 28px; font-size: 18px;">
+							<a style="color: #3f3f3f" href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->" itemprop="author" data-username="{posts.user.username}" data-uid="{posts.user.uid}">{posts.user.username}</a>
 						</strong>
 
 						<div class="post-header-space" style="flex: 1 auto;"></div>
 
 						<!-- IMPORT partials/topic/badge.tpl -->
 						<span class="post-time text-right" style="line-height: 28px; font-size: 14px">
-							<a class="permalink" href="{config.relative_path}/post/{posts.pid}"><span class="timeago" title="{posts.timestampISO}"></span></a>
+							<a class="permalink" href="{config.relative_path}/post/{posts.pid}">发布于<span class="timeago" title="{posts.timestampISO}"></span></a>
 
 							<span class="post-tools">
 								<a component="post/reply" href="#" class="<!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->"><i class="fa fa-reply"></i>[[topic:reply]]</a>
