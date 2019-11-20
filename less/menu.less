@@ -375,6 +375,19 @@ ul li.dropdown:hover > ul.dropdown-menu {
 }
 
 .nav-title {
+	&.open {
+		ul {
+			display: none;
+		}
+	}
+	&:hover {
+		ul {
+			display: block;
+		}
+	}
+}
+
+.nav-title {
 	>a {
 		color: rgb(102, 102, 102) !important;
 	}
