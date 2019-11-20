@@ -36,14 +36,14 @@
 							<!-- ENDIF posts.user.picture -->
 						</a>
 					</div>
-<!--					<div>-->
+					<!--					<div>-->
 						<strong style="line-height: 28px; font-size: 18px;">
 							<a style="color: #3f3f3f" href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->" itemprop="author" data-username="{posts.user.username}" data-uid="{posts.user.uid}">{posts.user.username}</a>
+							<!-- IMPORT partials/topic/badge.tpl -->
 						</strong>
 
-						<div class="post-header-space" style="flex: 1 auto;"></div>
+					<div class="post-header-space" style="flex: 1 auto;"></div>
 
-						<!-- IMPORT partials/topic/badge.tpl -->
 						<span class="post-time text-right" style="line-height: 28px; font-size: 14px">
 							<a class="permalink" href="{config.relative_path}/post/{posts.pid}">发布于<span class="timeago" title="{posts.timestampISO}"></span></a>
 
