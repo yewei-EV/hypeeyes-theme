@@ -245,9 +245,9 @@
 							</a>
 						</li>
 						<li role="presentation" class="divider"></li>
-						<li>
-							<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
-						</li>
+<!--						<li>-->
+<!--							<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>-->
+<!--						</li>-->
 						<li>
 							<a href="#" class="user-status" data-status="online">
 								<i class="status online"></i><span> [[global:online]]</span>

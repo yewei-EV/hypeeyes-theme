@@ -23,7 +23,7 @@ body #content {
     padding: 0;
 }
 body {
-    overflow: scroll;
+    overflow-x: hidden;
     height: calc(100vh - 65px);
 }
 </style>
