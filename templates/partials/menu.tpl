@@ -46,7 +46,7 @@
 	  <li class="nav-title"><a href="/custom">潮目首页</a></li>
 
 	  <li id="news-category" class="nav-title dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/1" id="news_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/custom/categories/1" id="news_dropdown">
 			  发售资讯
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -67,7 +67,7 @@
 	  </li>
 
 	  <li id="wiki-category" class="nav-title dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/4" id="wiki_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/custom/categories/4" id="wiki_dropdown">
 			  潮流百科
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -82,7 +82,7 @@
 	  </li>
 
 	  <li id="picture-category" class="nav-title dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/8" id="picture_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/custom/categories/8" id="picture_dropdown">
 			  美图细赏
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
@@ -115,7 +115,7 @@
 				  <a href="/category/32/">抢购技巧</a>
 			  </li>
 			  <li>
-				  <a href="/category/33/">晒图区</a>
+				  <a href="custom/category/33/">晒图区</a>
 			  </li>
 			  <li>
 				  <a href="/category/34/">七嘴八舌</a>
@@ -176,6 +176,14 @@
 					</a>
 				</li>
 
+				<!-- IF config.loggedIn -->
+                <li>
+                    <button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
+                </li>
+				<a href="{url}">
+					<div class="alert alert-warning hide" id="new-topics-alert"></div>
+				</a>
+
 				<!-- IF config.searchEnabled -->
 				<li>
 					<form id="search-form" class="hidden-xs" role="search" method="GET">
@@ -192,8 +200,7 @@
 				</li>
 				<!-- ENDIF config.searchEnabled -->
 
-				<!-- IF config.loggedIn -->
-				<li class="notifications dropdown" component="notifications">
+                <li class="notifications dropdown" component="notifications">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="notif_dropdown">
 						<i class="fa fa-fw fa-bell-o" component="notifications/icon" data-content="0"></i>
 					</a>
@@ -245,9 +252,6 @@
 							</a>
 						</li>
 						<li role="presentation" class="divider"></li>
-<!--						<li>-->
-<!--							<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>-->
-<!--						</li>-->
 						<li>
 							<a href="#" class="user-status" data-status="online">
 								<i class="status online"></i><span> [[global:online]]</span>
