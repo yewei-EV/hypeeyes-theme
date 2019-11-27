@@ -9,13 +9,13 @@
 							<a href="/custom">潮目首页</a>
 						</li>
 						<li>
-							<a href="/category/1/">发售资讯</a>
+							<a href="/custom/categories/1/">发售资讯</a>
 						</li>
 						<li>
-							<a href="/category/4">潮流百科</a>
+							<a href="/custom/categories/4">潮流百科</a>
 						</li>
 						<li>
-							<a href="/category/8">美图细赏</a>
+							<a href="/custom/categories/8">美图细赏</a>
 						</li>
 					</div>
 					<div class="footer-ugc-list">
