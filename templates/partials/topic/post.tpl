@@ -76,8 +76,6 @@
 					<div class="post-space" style="flex: 1 auto;"></div>
 					<div class="post-share">
 						<div class="fs-13 text-white" href="/aboutus" target="_blank" style="display: inline; margin-right: 12px">分享给朋友</div>
-						<!-- <a class="fs-13 text-white"
-                        style="margin-right:15px;position:relative;top:-2px;" href="http://nowre.com/Contact"  target="_blank">联系我们</a> -->
 						<a rel="nofollow" href="https://mp.weixin.qq.com/s/FYOiA6S19dgA-DlQCa9AkQ" target="_blank" style="display:inline-block;margin-right:8px;">
 						<span class="weixin-icon">
 							<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/371_Wechat_logo-512.png">
@@ -93,6 +91,16 @@
 						  <span class="nowre-third-icon small">
 							<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://www.transparentpng.com/thumb/instagram-logo-icon/85T6Z9-instagram-logo-clipart-transparent.png">
 						  </span>
+						</a>
+						<a role="menuitem" component="share/facebook" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
+							<span class="small">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png">
+						  	</span>
+						</a>
+						<a role="menuitem" component="share/twitter" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
+				  			<span class="small">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://pngimg.com/uploads/twitter/twitter_PNG9.png">
+						  	</span>
 						</a>
 					</div>
 				</div>
