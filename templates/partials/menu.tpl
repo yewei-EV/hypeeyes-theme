@@ -100,14 +100,11 @@
 	  </li>
 
 	  <li id="forum-category" class="nav-title dropdown" data-animation>
-		  <a class="dropdown-toggle" data-toggle="dropdown" href="/category/12" id="forum_dropdown">
+		  <a class="dropdown-toggle" data-toggle="dropdown" href="/custom/ugc/12" id="forum_dropdown">
 			  潮目社区
 			  <i class="fa fa-chevron-down" aria-hidden="true"></i>
 		  </a>
 		  <ul id="forum-list" class="dropdown-menu pull-left">
-			  <li>
-				  <a href="/category/30/">精选</a>
-			  </li>
 			  <li>
 				  <a href="/category/31/">发售讨论</a>
 			  </li>
