@@ -13,6 +13,9 @@
 			template: "{template.name}",
 			user: JSON.parse('{{userJSON}}')
 		};
+		if (window.top.location !== window.self.location) {
+			top.window.location.href = window.self.location;
+		}
 	</script>
 
 	<!-- IF useCustomHTML -->
