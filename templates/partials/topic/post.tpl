@@ -77,29 +77,28 @@
 					<div class="post-share">
 						<div class="fs-13 text-white" href="/aboutus" target="_blank" style="display: inline; margin-right: 12px">分享给朋友</div>
 						<a rel="nofollow" href="https://mp.weixin.qq.com/s/FYOiA6S19dgA-DlQCa9AkQ" target="_blank" style="display:inline-block;margin-right:8px;">
-						<span class="weixin-icon">
-							<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/371_Wechat_logo-512.png">
-						</span>
+							<span class="weixin-icon">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/wechat.png">
+							</span>
 						</a>
 						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">
 							<span class="nowre-third-icon small">
-								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="https://cdn4.iconfinder.com/data/icons/chinas-social-share-icons/256/cssi_sina_weibo-512.png">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/sina-weibo.png">
 							</span>
-
 						</a>
 						<a rel="nofollow" href="https://www.instagram.com/hypeeyes_official/" target="_blank" style="display:inline-block;margin-right:8px;">
-						  <span class="nowre-third-icon small">
-							<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://www.transparentpng.com/thumb/instagram-logo-icon/85T6Z9-instagram-logo-clipart-transparent.png">
-						  </span>
+					  		<span class="nowre-third-icon small">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/instagram-logo.png">
+					  		</span>
 						</a>
 						<a role="menuitem" component="share/facebook" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
 							<span class="small">
-								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/facebook.png">
 						  	</span>
 						</a>
 						<a role="menuitem" component="share/twitter" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
 				  			<span class="small">
-								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="http://pngimg.com/uploads/twitter/twitter_PNG9.png">
+								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/twitter.png">
 						  	</span>
 						</a>
 					</div>
