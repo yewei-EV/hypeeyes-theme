@@ -16,8 +16,6 @@
 			<!-- IF topics.thumb -->
 			<img src="{topics.thumb}" style="width:130px;" alt="{topics.user.username}" />
 			<!--<img src="{topics.thumb}" class="lv-img" alt="{topics.user.username}" />-->
-			<!-- ELSE -->
-			<img src="/assets/images/cover-default.png" style="width:130px;" alt="{topics.user.username}" />
 			<!-- ENDIF topics.thumb -->
 		</div>
 		<div class="media-body">
