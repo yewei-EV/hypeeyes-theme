@@ -107,6 +107,11 @@
 			.position-fix:hover {
 				cursor: pointer;
 			}
+			@media only screen and (max-width: 576px) {
+				.footer {
+					display: none !important;
+				}
+			}
 			.footer {
 				padding-top: 20px;
 				padding-left: 40px;
