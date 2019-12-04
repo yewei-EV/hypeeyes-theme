@@ -35,12 +35,12 @@
 								<img style="width: 25px;height: 25px;" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/371_Wechat_logo-512.png">
 							</span>
 						</a>
-						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">
-								<span class="nowre-third-icon small">
-									<img style="width: 25px;height: 25px;" src="https://cdn4.iconfinder.com/data/icons/chinas-social-share-icons/256/cssi_sina_weibo-512.png">
-								</span>
+<!--						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">-->
+<!--								<span class="nowre-third-icon small">-->
+<!--									<img style="width: 25px;height: 25px;" src="https://cdn4.iconfinder.com/data/icons/chinas-social-share-icons/256/cssi_sina_weibo-512.png">-->
+<!--								</span>-->
 
-						</a>
+<!--						</a>-->
 						<a rel="nofollow" href="https://www.instagram.com/hypeeyes_official/" target="_blank" style="display:inline-block;margin-right:8px;">
 							  <span class="nowre-third-icon small">
 								<img style="width: 25px;height: 25px;" src="http://www.transparentpng.com/thumb/instagram-logo-icon/85T6Z9-instagram-logo-clipart-transparent.png">
@@ -49,12 +49,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer-button text-center" style="color: rgb(102, 102, 102);">
-				© HYPEEYES.COM 2019 &nbsp; | &nbsp;
-				<a class="fs-13 text-white" style="position:relative; color: rgb(102, 102, 102);" href="http://www.miitbeian.gov.cn" target="_blank">
-					沪ICP备1234567
-				</a> &nbsp; | &nbsp;	广播电视节目制作经营许可证（泸）字第9999号
-			</div>
+<!--			<div class="footer-button text-center" style="color: rgb(102, 102, 102);">-->
+<!--				© HYPEEYES.COM 2019 &nbsp; | &nbsp;-->
+<!--				<a class="fs-13 text-white" style="position:relative; color: rgb(102, 102, 102);" href="http://www.miitbeian.gov.cn" target="_blank">-->
+<!--					沪ICP备1234567-->
+<!--				</a> &nbsp; | &nbsp;	广播电视节目制作经营许可证（泸）字第9999号-->
+<!--			</div>-->
 		</footer>
 
 		<!-- IF !isSpider -->

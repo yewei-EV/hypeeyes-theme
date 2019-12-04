@@ -43,7 +43,7 @@
 <!--	  	<a href="/custom" style="color: rgb(255, 200, 12);">潮目首页</a>-->
 <!--	  </div>-->
 
-	  <li class="nav-title"><a href="/custom">潮目首页</a></li>
+	  <li class="nav-title"><a href="/custom" style="color: #FF5000!important">潮目首页</a></li>
 
 	  <li id="news-category" class="nav-title dropdown" data-animation>
 		  <a class="dropdown-toggle" data-toggle="dropdown" href="/custom/categories/1" id="news_dropdown">
