@@ -62,7 +62,7 @@
 				<!-- ENDIF topics.tags.length -->
 			</div>
 
-			<div class="lv-actions actions hidden-xs" style="top: 85%;">
+			<div class="lv-actions actions hidden-xs" style="top: unset; bottom: 5px;">
 				<ul>
 					<!-- IF topics.unreplied -->
 					<li class="lv-small">[[category:no_replies]]</li>
