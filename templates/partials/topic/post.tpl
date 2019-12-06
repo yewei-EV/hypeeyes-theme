@@ -81,21 +81,21 @@
 								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/wechat.png">
 							</span>
 						</a>
-						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">
-							<span class="nowre-third-icon small">
-								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/sina-weibo.png">
-							</span>
-						</a>
+<!--						<a rel="nofollow" href="https://www.weibo.com/u/6813829027?is_all=1" target="_blank" style="display:inline-block;margin-right:8px;">-->
+<!--							<span class="nowre-third-icon small">-->
+<!--								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/sina-weibo.png">-->
+<!--							</span>-->
+<!--						</a>-->
 						<a rel="nofollow" href="https://www.instagram.com/hypeeyes_official/" target="_blank" style="display:inline-block;margin-right:8px;">
 					  		<span class="nowre-third-icon small">
 								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/instagram-logo.png">
 					  		</span>
 						</a>
-						<a role="menuitem" component="share/facebook" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
-							<span class="small">
-								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/facebook.png">
-						  	</span>
-						</a>
+<!--						<a role="menuitem" component="share/facebook" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">-->
+<!--							<span class="small">-->
+<!--								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/facebook.png">-->
+<!--						  	</span>-->
+<!--						</a>-->
 						<a role="menuitem" component="share/twitter" tabindex="-1" href="#" style="display:inline-block;margin-right:8px;">
 				  			<span class="small">
 								<img style="width: 18px;height: 18px; color: rgb(102, 102, 102);" src="/assets/uploads/system/twitter.png">
